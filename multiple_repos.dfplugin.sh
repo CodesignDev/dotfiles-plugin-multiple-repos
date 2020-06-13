@@ -402,7 +402,6 @@ dotfile_plugin_multiple_repos_parse_repo_list_file_text() {
 
     # Return the list of repo lines
     echo ${PARSED_REPO_LINES[@]}
-    exit
     return 0
 }
 
