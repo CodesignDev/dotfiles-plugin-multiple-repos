@@ -62,7 +62,7 @@ dotfile_plugin_multiple_repos_install_prerequisites() {
     [[ -z $MULTIPLE_REPOS_PREREQS_INSTALLED ]] || return 0
 
     # Install prerequisites
-    install_package git
+    packages install git
 
     # Say that we have installed the prereqs
     MULTIPLE_REPOS_PREREQS_INSTALLED=1
